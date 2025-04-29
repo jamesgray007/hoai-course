@@ -8,12 +8,12 @@ async def main():
     client = AsyncOpenAI()
 
     # 2. Launch a local filesystem MCP server via stdio
-    samples_dir = "/Users/jamesgray/Documents/Claude"
+    my_dir = "/Users/jamesgray/Documents/Claude"
     async with MCPServerStdio(
         params={
             "command": "npx",
             "args": ["-y", "@modelcontextprotocol/server-filesystem", 
-                     samples_dir],
+                     my_dir],
         }
     ) as fs_server:
         # Under the hood, fs_server.connect() is called automatically,
