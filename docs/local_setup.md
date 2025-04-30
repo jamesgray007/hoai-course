@@ -163,10 +163,14 @@ python -m venv .venv
 - What you see: Your prompt should change to (.venv).
 - Why: Keeps this project’s packages isolated from your system.
 
-**Step 4: Upgrade pip & install a sample library**
+**Step 4: Upgrade pip & install Python libraries**
+This will install Python libaries requires to build code with OpenAI APIs and the OpenAI Agents SDK.
 ```
 pip install --upgrade pip
+pip install openai
+pip install openai-agents
 pip install requests
+pip install python-dotenv
 ```
 
 **Step 5: Save (“pin”) your dependencies**
@@ -174,11 +178,15 @@ pip install requests
 pip freeze > requirements.txt
 ```
 - Runs Python’s package manager (pip) and asks it to “freeze” all currently installed libraries in your active environment.Takes whatever pip freeze prints to the screen and writes it into the file named on the right.
-- Outputs a list like:
+- Outputs a list in requirement.txt like:
 ```
-requests==2.31.0
-numpy==1.25.0
-pandas==2.1.0
+openai==1.76.2
+openai-agents==0.0.14
+pydantic==2.11.4
+pydantic-settings==2.9.1
+pydantic_core==2.33.2
+python-dotenv==1.1.0
+requests==2.32.3
 ```
 
 **Step 6: Open the folder in Cursor**
