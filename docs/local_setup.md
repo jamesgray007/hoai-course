@@ -31,8 +31,8 @@ By the end of this lesson, you’ll be able to:
 
 ## 📥 Prerequisites
 
-**Git** (version control)  
-   Git is a distributed version-control system that tracks changes in your code and lets you collaborate safely.  
+**Git** (version control)
+   Git is a distributed version-control system that tracks changes in your code and lets you collaborate safely. This step is only required if you plan to manage a backup of your code on [Github.com.](https://www.github.com). You can go there to create a free account.
    <details>
    <summary>How to install Git</summary>
 
@@ -105,8 +105,10 @@ python --version   # e.g. Python 3.11.x
 ```
 </details>
 
-## ✅ Install Cursor
-Cursor is an AI-powered code editor. These steps use your browser and the OS installer.
+## ✅ Install Cursor (Or Visual Studio Code)
+Cursor is an AI-powered code editor. These steps use your browser and the OS installer.   
+Cursor is a fork of Visual Studio Code that also include AI-powered development with Github Copilot.   
+You can download [VS Code](https://code.visualstudio.com/) for free and follow similar steps. 
 <details>
 <summary>macOS</summary>
 
@@ -189,7 +191,7 @@ pandas==2.1.0
 
 Step 1: Navigate to your project folder ("my_project")
 
-Step 2:	Create your source folder structure
+Step 2:	Create your source folder structure. This is where you will store your "source files" - the code you develop. You can create the folder from the command line below, or use explorer view in Cursor to create a folder under the my_project folder.
 ```
 mkdir -p src/my_project
 ```
@@ -206,7 +208,12 @@ touch README.md LICENSE
 ```
 Step 5: Open your editor (Cursor or VS Code) on this folder so you can edit those files.
 
-Step 6: Initialize Git
+Step 6: Add a .env file to the root folder in Cursor. Add your API keys here like:
+```
+OPENAI_API_KEY='sk-long-key-here'
+```
+
+Step 7: Initialize Git
 ```
 git init
 ```
@@ -263,3 +270,4 @@ To track changes, revert mistakes, and collaborate with others safely.
 - **Can I choose different names?**  
 Yes—if you rename .venv, update the activation command accordingly.
 
+___
