@@ -159,6 +159,19 @@ source .venv/bin/activate
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
+If PowerShell complains:
+```
+File …\Activate.ps1 cannot be loaded because running scripts is disabled on this system.
+```
+Run **once**:
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+Confirm you’re inside the env
+```
+where python            # should point to …\.venv\Scripts\python.exe
+python -m pip list      # shows packages inside the env
+```
 
 - What you see: Your prompt should change to (.venv).
 - Why: Keeps this project’s packages isolated from your system.
