@@ -116,6 +116,7 @@ You can download [VS Code](https://code.visualstudio.com/) for free and follow s
 2.	Click Download for Mac
 3.	Open the downloaded .dmg, drag the Cursor icon into Applications
 4.	Launch Cursor from Launchpad
+5. Navigate to "Marketplace" in the UI and install "Python extension for Visual Studio" from Microsoft.
 </details>
 
 <details>
@@ -125,6 +126,7 @@ You can download [VS Code](https://code.visualstudio.com/) for free and follow s
 2.	Click Download for Windows
 3.	Run the downloaded .exe, follow prompts
 4.	Launch Cursor from the Start menu
+5. Navigate to "Marketplace" in the UI and install "Python extension for Visual Studio" from Microsoft.
 </details>
 
 Tip: Sign in or create a free Cursor account to unlock AI code completions.
