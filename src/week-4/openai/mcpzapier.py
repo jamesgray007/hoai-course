@@ -1,8 +1,9 @@
 # pip install openai openai-agents sseclient-py python-dotenv
 
-# pip install openai openai-agents sseclient-py python-dotenv
+# This code is an example of how to use the OpenAI Agents SDK with a Zapier MCP server.
+# This provides agents with access to any of the tools that are available in your Zapier MCP Server.
+# Add your Zapier MCP Server URL to the .env file.
 
-# pip install openai openai-agents sseclient-py python-dotenv
 import os, asyncio
 from dotenv import load_dotenv
 from agents import Agent, Runner
