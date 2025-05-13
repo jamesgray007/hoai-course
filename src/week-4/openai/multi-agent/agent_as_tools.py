@@ -46,9 +46,9 @@ writer_agent = Agent(
 orchestrator_agent = Agent(
     name="orchestrator_agent",
     instructions=(
-        "You orchestrate the search, knowledge base, writer and translation agents. "
+        "You orchestrate the search, writer and translation agents. "
         "You use the search agent to find the most relevant information. "
-        "You use the writer agent to write a report on the most relevant information from the search, and knowledge base"
+        "You use the writer agent to write a report on the most relevant information from the search"
         "You use the spanish and french agents to translate messages."
     ),
     model="gpt-4o-mini",
