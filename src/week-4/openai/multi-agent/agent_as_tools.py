@@ -21,36 +21,34 @@ search_agent = Agent(
     name="Search Agent",
     instructions="You are a search agent that searches the web for relevant information.",
     tools=[WebSearchTool(), FileSearchTool(vector_store_ids=[os.getenv("VECTOR_STORE_ID")])],
+    model="gpt-4o-mini",
     handoff_description="Web search agent for gathering the most relevant information from the web."
-)
-knowledge_base_agent = Agent(
-    name="Knowledge Base Agent",
-    instructions="You are a knowledge base agent that retrieves information from a knowledge base.",
-    tools=[FileSearchTool(vector_store_ids=[os.getenv("VECTOR_STORE_ID")])],
-    handoff_description="Knowledge base agent for gathering files from a knowledge base."
 )
 spanish_agent = Agent(
     name="spanish_agent",
     instructions="You translate messages to Spanish",
+    model="gpt-4o-mini",
     handoff_description="An english to spanish translator",
 )
 french_agent = Agent(
     name="french_agent",
     instructions="You translate messages to French",
+    model="gpt-4o-mini",
     handoff_description="An english to french translator",
 )
 writer_agent = Agent(
     name="writer_agent",
     instructions="You write a report on the most relevant information from the search, knowledge base, and translation agents.",
+    model="gpt-4o-mini",
     handoff_description="A writer agent for writing a report on the most relevant information from the search, knowledge base, and translation agents.",
 )
+# This is the manager agent that orchestrates the other agents.
 orchestrator_agent = Agent(
     name="orchestrator_agent",
     instructions=(
         "You orchestrate the search, knowledge base, writer and translation agents. "
         "You use the search agent to find the most relevant information. "
         "You use the writer agent to write a report on the most relevant information from the search, and knowledge base"
-        "You use the knowledge base agent to retrieve information from the knowledge base. "
         "You use the spanish and french agents to translate messages."
     ),
     model="gpt-4o-mini",
@@ -58,10 +56,6 @@ orchestrator_agent = Agent(
         search_agent.as_tool(
             tool_name="search_the_web",
             tool_description="Search the web for the most relevant information.",
-        ),
-        knowledge_base_agent.as_tool(
-            tool_name="search_knowledge_base",
-            tool_description="Search the knowledge base for the most relevant information.",
         ),
         spanish_agent.as_tool(  
             tool_name="translate_to_spanish",
@@ -73,19 +67,15 @@ orchestrator_agent = Agent(
         ),
         writer_agent.as_tool(
             tool_name="write_report",
-            tool_description="Write a report on the most relevant information from the search, knowledge base, and translation agents.",
+            tool_description="Write a report on the most relevant information from the search,and translation agents.",
         ),
     ]
 )
 
-synthesizer_agent = Agent(
-    name="synthesizer_agent",
-    instructions="You inspect translations, correct them if needed, and produce a final concatenated response.",
-)
-
+# This is the main function that runs the orchestrator agent.
 async def main():
 
-    # Run the orchestrator agent
+    # Run the orchestrator agent; trace is used to log the agent's actions and decisions.
     with trace("Orchestrator Agent"):
         orchestrator_result = await Runner.run(
             orchestrator_agent,

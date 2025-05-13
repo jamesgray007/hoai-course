@@ -27,6 +27,7 @@ billing_agent = Agent(
     Ask for necessary information to resolve billing issues efficiently.""",
     model="gpt-4o-mini",
     tools=[FileSearchTool(vector_store_ids=[os.getenv("VECTOR_STORE_ID")])],
+    
 )
 
 technical_support_agent = Agent(
