@@ -27,7 +27,7 @@ billing_agent = Agent(
     Ask for necessary information to resolve billing issues efficiently.""",
     model="gpt-4o-mini",
     tools=[FileSearchTool(vector_store_ids=[os.getenv("VECTOR_STORE_ID")])],
-    
+    handoff_description="Handoff to the billing agent for billing issues."
 )
 
 technical_support_agent = Agent(
@@ -43,6 +43,7 @@ technical_support_agent = Agent(
     Be patient and thorough in your explanations.""",
     model="gpt-4o-mini",
     tools=[FileSearchTool(vector_store_ids=[os.getenv("VECTOR_STORE_ID")])],
+    handoff_description="Handoff to the technical support agent for technical issues."
 )
 
 account_management_agent = Agent(
@@ -58,6 +59,7 @@ account_management_agent = Agent(
     Explain the importance of security measures when implementing changes.""",
     model="gpt-4o-mini",
     tools=[FileSearchTool(vector_store_ids=[os.getenv("VECTOR_STORE_ID")])],
+    handoff_description="Handoff to the account management agent for account management issues."
 )
 
 # Define the triage agent that will route requests using handoffs
