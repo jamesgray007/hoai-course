@@ -19,7 +19,7 @@ vector_store_id = os.getenv("VECTOR_STORE_ID") # this gets the vector store ID f
 # https://platform.openai.com/docs/api-reference/responses/create
 client = OpenAI(api_key=api_key)
 
-prompt = "How can I manage my self-limiting beliefs?"
+prompt = "How do I reset my password?"
 
 response = client.responses.create(
     model="gpt-4o-mini",

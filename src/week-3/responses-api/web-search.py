@@ -21,7 +21,8 @@ def webSearch (query: str) -> str:
         model="gpt-4o-mini",
         tools=[{"type": "web_search_preview"}],
         tool_choice="auto", #the model will decide which tool to use
-        input=query
+        input=query,
+        instructions="Please provide a concise summary of the most significant AI news story from today."
     )
     return response.output_text
 

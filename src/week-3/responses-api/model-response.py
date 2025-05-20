@@ -1,4 +1,4 @@
-## Install Python packages in the terminal
+# Install Python packages in the terminal
 # pip install openai
 # pip install rich
 
