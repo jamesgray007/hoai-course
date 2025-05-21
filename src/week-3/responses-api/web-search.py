@@ -26,6 +26,6 @@ def webSearch (query: str) -> str:
     )
     return response.output_text
 
-raw_response = webSearch("What was a top AI new story from today?")
+raw_response = webSearch("What was a top AI news story from Google I/O and Microsoft Build?")
 wrapped_response = textwrap.fill(raw_response, width=120)
 print(wrapped_response)
