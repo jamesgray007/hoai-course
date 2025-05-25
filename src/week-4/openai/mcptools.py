@@ -5,7 +5,7 @@ import asyncio
 import os
 import shutil
 
-from agents import Agent, Runner, gen_trace_id, trace
+from agents import Agent, Runner, gen_trace_id, trace, HostedMCPTool
 from agents.mcp import MCPServer, MCPServerStdio
 
 async def main():
