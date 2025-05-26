@@ -178,4 +178,4 @@ cython_debug/
 .env
 .venv/
 __pycache__/
-*.log
+*.log.DS_Store
