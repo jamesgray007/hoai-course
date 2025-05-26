@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# recommendations from ChatGPT
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.log
