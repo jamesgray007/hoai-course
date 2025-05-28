@@ -207,7 +207,7 @@ requests==2.32.3
 ```
 
 **Step 6: Open the folder in Cursor**
-- In Cursor: File → Open Folder… → select my_project
+- In Cursor or VS Code: File → Open Folder… → select my_project
 - Cursor auto-detects .venv and uses the right Python interpreter.
 
 ## ✅ Add Recommended Best-Practice Files
@@ -218,22 +218,34 @@ Step 1: Navigate to your project folder ("my_project")
 
 Step 2:	Create your source folder structure. This is where you will store your "source files" - the code you develop. You can create the folder from the command line below, or use explorer view in Cursor to create a folder under the my_project folder.
 ```
+MacOS:
 mkdir -p src/my_project
+
+Windows PowerShell:
+mkdir src\my_project
 ```
 
 Step 3: Create an empty __init__.py  
 This tells Python “this is a package”:
 ```
+MacOS:
 touch src/my_project/__init__.py
+
+Windows PowerShell:
+New-Item -Path src\my_project\__init__.py -ItemType File
 ```
 
 Step 4: Create your docs & config files
 ```
+MacOS:
 touch README.md LICENSE
+
+Windows PowerShell:
+New-Item -Path README.md, LICENSE -ItemType File
 ```
 Step 5: Open your editor (Cursor or VS Code) on this folder so you can edit those files.
 
-Step 6: Add a .env file to the root folder in Cursor. Add your API keys here like:
+Step 6: Add a .env file to the root folder in Cursor/VS Code. You can right-mouse click in the left explorer pane or click File > New File from the menu. Add your API keys to the .env file like:
 ```
 OPENAI_API_KEY='sk-long-key-here'
 ```
