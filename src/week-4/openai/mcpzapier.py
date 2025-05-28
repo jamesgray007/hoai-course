@@ -4,12 +4,10 @@
 # https://openai.github.io/openai-agents-python/mcp/
 # This provides agents with access to any of the tools that are available in your Zapier MCP Server.
 
-
 import os, asyncio
 from dotenv import load_dotenv
 from agents import Agent, Runner
 from agents.mcp.server import MCPServerSse
-
 
 # ---- Load the .env file ---------------------------------------------------
 load_dotenv()
@@ -26,7 +24,7 @@ if not MCP_URL:
 zapier_server = MCPServerSse(
     params={"url": MCP_URL},
     name="zapier-mcp",
-    cache_tools_list=True,
+    cache_tools_list=True, # The agent calls list_tools() every time it is run. This will cache the tools list.
 )
 
 async def main(prompt: str):
@@ -51,10 +49,11 @@ async def main(prompt: str):
         )
 
         # ---- Run a single turn ----------------------------------------------
-        result = await Runner.run(agent, input=prompt)   # returns RunResult
+        result = await Runner.run(agent, input=prompt)   # returns result
         print(result.final_output)                       # assistant’s reply
 
 if __name__ == "__main__":
     asyncio.run(
+        # Execute the agent with the following goal
         main("Add tomorrow 9 AM 'Monthly Ops Review' to my Google Calendar")
     )

@@ -28,18 +28,21 @@ spanish_agent = Agent(
     name="spanish_agent",
     instructions="You translate messages to Spanish",
     model="gpt-4o-mini",
+    tools = [],
     handoff_description="An english to spanish translator",
 )
 french_agent = Agent(
     name="french_agent",
     instructions="You translate messages to French",
     model="gpt-4o-mini",
+    tools = [],
     handoff_description="An english to french translator",
 )
 writer_agent = Agent(
     name="writer_agent",
     instructions="You write a report on the most relevant information from the search, knowledge base, and translation agents.",
     model="gpt-4o-mini",
+    tools = [],
     handoff_description="A writer agent for writing a report on the most relevant information from the search, knowledge base, and translation agents.",
 )
 # This is the manager agent that orchestrates the other agents.
