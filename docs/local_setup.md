@@ -1,6 +1,6 @@
 # 🚀 Setting Up Your Python & Cursor Development Environment
 
-- Welcome! This guide walks you through installing Python, installing Cursor, and scaffolding a brand-new Python project with best practices in place.
+- Welcome! This guide walks you through installing Python, Cursor, Visual Studio Code and scaffolding a brand-new Python project with best practices in place.
 ---
 
 ## 🎯 Learning Objectives
@@ -32,7 +32,9 @@ By the end of this lesson, you’ll be able to:
 ## 📥 Prerequisites
 
 **Git** (version control)
-   Git is a distributed version-control system that tracks changes in your code and lets you collaborate safely. This step is only required if you plan to manage a backup of your code on [Github.com.](https://www.github.com). You can go there to create a free account.
+   Git is a distributed version-control system that tracks changes in your code and lets you collaborate safely. This step is only required if you plan to manage a backup of your code on [Github.com.](https://www.github.com). You can go there to create a free account.  
+
+   See the [official GitHub Git Guide](https://github.com/git-guides/install-git) for installing Git on Windows and MacOS.
    <details>
    <summary>How to install Git</summary>
 
@@ -51,7 +53,7 @@ By the end of this lesson, you’ll be able to:
 ```
 **Windows (in PowerShell as Administrator)**
 
-1. Open your web browser → go to https://git-scm.com/download/win
+1. Open your web browser → go to https://github.com/git-guides/install-git
 2.	Download and run the installer (keep default options)
 3.	After install, open PowerShell (not plain “Command Prompt”) and run:
 
@@ -105,7 +107,7 @@ python --version   # e.g. Python 3.11.x
 ```
 </details>
 
-## ✅ Install Cursor (Or Visual Studio Code)
+## ✅ Install Cursor or Visual Studio Code
 Cursor is an AI-powered code editor. These steps use your browser and the OS installer.   
 Cursor is a fork of Visual Studio Code that also include AI-powered development with Github Copilot.   
 You can download [VS Code](https://code.visualstudio.com/) for free and follow similar steps. 
