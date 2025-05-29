@@ -10,7 +10,12 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
-
+    env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        ZAPIER_MCP_URL: ${{ secrets.ZAPIER_MCP_URL }}
+        ZAPIER_MCP_TOKEN: ${{ secrets.ZAPIER_MCP_TOKEN }}
+        ZAPIER_MCP_SERVER_URL: ${{ secrets.ZAPIER_MCP_SERVER_URL }}
+        PERSONAL_EMAIL: ${{ secrets.PERSONAL_EMAIL }}
     steps:
     - uses: actions/checkout@v4            # grab your code
     - name: Set up Python
@@ -21,6 +26,4 @@ jobs:
     - name: Install deps
       run: pip install -r requirements.txt
     - name: Run script
-      env:
-        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: python src/week-3/responses-api/workflow.py
