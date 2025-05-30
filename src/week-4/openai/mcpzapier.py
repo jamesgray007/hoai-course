@@ -24,7 +24,7 @@ if not MCP_URL:
 zapier_server = MCPServerSse(
     params={"url": MCP_URL},
     name="zapier-mcp",
-    cache_tools_list=True, # The agent calls list_tools() every time it is run. This will cache the tools list.
+    cache_tools_list=False, # The agent calls list_tools() every time it is run. This will cache the tools list.
 )
 
 async def main(prompt: str):
