@@ -8,7 +8,7 @@
 By the end of this lesson, you’ll be able to:
 
 1. Install Python on macOS and Windows  
-2. Install and launch Cursor  
+2. Install and launch an AI-powered code editor (Cursor or Visual Studio Code)
 3. Scaffold a local Python project folder with:
    - a virtual environment  
    - Git initialization  

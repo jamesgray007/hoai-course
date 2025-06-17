@@ -1,6 +1,7 @@
 # Install Python packages in the terminal
 # pip install openai
 # pip install rich
+# pip install python-dotenv
 
 # Import Python libraries we will use
 import textwrap
