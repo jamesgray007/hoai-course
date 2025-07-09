@@ -30,7 +30,6 @@ response = client.responses.create(
   input=prompt,
   instructions="Please provide a concise answer and include one interesting historical fact about the capital.",
   tools=[] #no tools are needed for this prompt
-  
 )
 
 print(response)

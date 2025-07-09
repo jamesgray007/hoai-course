@@ -96,10 +96,10 @@ async def main():
     # Example customer queries
     queries = [
         "I'm trying to update my credit card information but the system keeps rejecting it.",
-        "I can't log into my account. It says my password is incorrect but I'm sure it's right.",
-        "The application crashes every time I try to export my data to PDF. What's going on?",
-        "I was double-charged for my monthly subscription. Can I get a refund?",
-        "How do I enable two-factor authentication for my account?"
+       # "I can't log into my account. It says my password is incorrect but I'm sure it's right.",
+       # "The application crashes every time I try to export my data to PDF. What's going on?",
+       # "I was double-charged for my monthly subscription. Can I get a refund?",
+       # "How do I enable two-factor authentication for my account?"
     ]
     
     for query in queries:

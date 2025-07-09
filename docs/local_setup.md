@@ -1,6 +1,6 @@
-# 🚀 Setting Up Your Python & Cursor Development Environment
+# 🚀 Setting Up Python & AI-Powered Code Editor
 
-- Welcome! This guide walks you through installing Python, Cursor, Visual Studio Code and scaffolding a brand-new Python project with best practices in place.
+- Welcome! This guide walks you through installing Python and an AI-powered code editor (Cursor, Visual Studio Code) on your local machine. It also includes scaffolding a brand-new Python project with best practices in place.
 ---
 
 ## 🎯 Learning Objectives
@@ -17,6 +17,7 @@ By the end of this lesson, you’ll be able to:
    - essential config files  
 
 ## Understanding GUI vs. Terminal
+These instructions use the "terminal" on MacOS and Windows to install Python and configure a directory structure.
 **How to open:**
 
 - **macOS Terminal**  
@@ -29,38 +30,12 @@ By the end of this lesson, you’ll be able to:
 
 ---
 
-## 📥 Prerequisites
+## 📥 Install Git Version Control
 
 **Git** (version control)
-   Git is a distributed version-control system that tracks changes in your code and lets you collaborate safely. This step is only required if you plan to manage a backup of your code on [Github.com.](https://www.github.com). You can go there to create a free account.  
+   Git is a distributed version-control system that tracks changes in your code and lets you collaborate safely. This step is only required if you plan to manage a backup of your code on [Github.com.](https://www.github.com). If so, create a free account on Githhub.com.  
 
    See the [official GitHub Git Guide](https://github.com/git-guides/install-git) for installing Git on Windows and MacOS.
-   <details>
-   <summary>How to install Git</summary>
-
-   **macOS (in Terminal):**
-   ```bash
-   # If you have Homebrew:
-   brew install git
-
-   # Otherwise, first install Homebrew:
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   brew install git
-   ```
-   Verify:
-   ```bash
-   git --version   # should print something like git version 2.x.x
-```
-**Windows (in PowerShell as Administrator)**
-
-1. Open your web browser → go to https://github.com/git-guides/install-git
-2.	Download and run the installer (keep default options)
-3.	After install, open PowerShell (not plain “Command Prompt”) and run:
-
-  ```powershell
-   git --version   # should print git version 2.x.x
-   ```
-   </details>
 
 **Administrator Rights**
 - macOS: You may be prompted for your password when installing software.
@@ -84,11 +59,9 @@ If you see a 3.x version, you can skip straight to "Install Cursor". Otherwise, 
 <details>
 <summary>macOS (in Terminal)</summary>
 
-1. Install Python 3 via Homebrew:
-```bash
-brew install python
-```
-2. Verify
+1. In your web browser, go to https://python.org → Downloads → macOS
+2. Download and run the macOS universal installer
+3. Open a terminal and run:
 ```
 python3 --version   # e.g. Python 3.11.x
 ```
@@ -107,10 +80,12 @@ python --version   # e.g. Python 3.11.x
 ```
 </details>
 
-## ✅ Install Cursor or Visual Studio Code
-Cursor is an AI-powered code editor. These steps use your browser and the OS installer.   
-Cursor is a fork of Visual Studio Code that also include AI-powered development with Github Copilot.   
-You can download [VS Code](https://code.visualstudio.com/) for free and follow similar steps. 
+## ✅ Install an AI-Powered Code Editor
+
+### Cursor
+Cursor is an AI-powered code editor. These steps use your browser and the OS installer. Cursor is a fork of Visual Studio Code that also include AI-powered development with Github Copilot.   
+
+
 <details>
 <summary>macOS</summary>
 
@@ -133,13 +108,18 @@ You can download [VS Code](https://code.visualstudio.com/) for free and follow s
 
 Tip: Sign in or create a free Cursor account to unlock AI code completions.
 
+### Visual Studio Code
+You can download [VS Code](https://code.visualstudio.com/) for free and follow similar steps. VS Code is AI=powered by GitHub Copilot. It's free to use with limits. 
+
+
 ## ✅ Scaffold Your Local Project Folder
 
 From here on out, you’ll work in the Terminal (macOS) or PowerShell (Windows).
 
-You can also create a project folder in macOS and Windows like you normally would.
+You can also create a project folder in macOS and Windows like you normally would through the GUI.
 
-**Step 1: Create your project folder**
+**Step 1: Create your project folder**  
+You can create a new folder on your desktop through the UI or using the terminal below. You can replace "my_project" with any folder name you wish. 
 ```
 mkdir my_project
 cd my_project
@@ -152,13 +132,23 @@ git init
 - This creates a hidden .git/ folder.
 - You’ll use Git commands (git add, git commit) to save snapshots.
 
-**Step 3: Create a Python virtual environment**
-- macOS
+**Step 3: Create a Python virtual environment**  
+A **Python environment** is essentially an isolated workspace where you can install and manage Python packages (libraries) and dependencies for your projects. Think of it like having separate toolboxes for different projects - each toolbox contains only the specific tools (packages) needed for that particular job.
+
+When you create a virtual environment, Python creates a separate folder structure that includes:
+
+- Its own Python interpreter
+- Its own package installation directory
+- Scripts to "activate" the environment
+
+When activated, any packages you install only affect that specific environment, not your system or other projects.
+
+- macOS (run the code below in terminal)
 ```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
-- Windows (Powershell)
+- Windows (run the code in Powershell)
 ```
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -181,7 +171,7 @@ python -m pip list      # shows packages inside the env
 - Why: Keeps this project’s packages isolated from your system.
 
 **Step 4: Upgrade pip & install Python libraries**
-This will install Python libaries requires to build code with OpenAI APIs and the OpenAI Agents SDK.
+This will install Python libaries requires to build code with OpenAI APIs and the OpenAI Agents SDK. We will use these libraries in Week 3 and 4. 
 ```
 pip install --upgrade pip
 pip install openai
@@ -243,9 +233,9 @@ touch README.md LICENSE
 Windows PowerShell:
 New-Item -Path README.md, LICENSE -ItemType File
 ```
-Step 5: Open your editor (Cursor or VS Code) on this folder so you can edit those files.
+Step 5: Open your code editor (Cursor or VS Code) on this folder so you can edit those files.
 
-Step 6: Add a .env file to the root folder in Cursor/VS Code. You can right-mouse click in the left explorer pane or click File > New File from the menu. Add your API keys to the .env file like:
+Step 6: Add a **.env** file to the root folder in Cursor/VS Code. You can right-mouse click in the left explorer pane or click File > New File from the menu. Add your API keys to the .env file like:
 ```
 OPENAI_API_KEY='sk-long-key-here'
 ```

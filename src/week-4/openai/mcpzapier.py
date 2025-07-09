@@ -7,7 +7,7 @@
 import os, asyncio
 from dotenv import load_dotenv
 from agents import Agent, Runner
-from agents.mcp.server import MCPServerSse
+from agents.mcp.server import MCPServerSse, MCPServerStreamableHttp
 
 # ---- Load the .env file ---------------------------------------------------
 load_dotenv()
@@ -16,13 +16,21 @@ load_dotenv()
 MCP_URL = os.getenv("ZAPIER_MCP_SERVER_URL")
 if not MCP_URL:
     raise EnvironmentError(
-        "Missing ZAPIER_MCP_SERVER_URL.  Paste the server-specific Zapier MCP "
+        "Missing ZAPIER_MCP_SERVER_URL. Paste the server-specific Zapier MCP "
+        "URL into your .env or export it in your shell."
+    )
+
+MCP_URL_SSE = os.getenv("ZAPIER_MCP_SERVER_URL_SSE")
+if not MCP_URL_SSE:
+    raise EnvironmentError(
+        "Missing ZAPIER_MCP_SERVER_URL. Paste the server-specific Zapier MCP "
         "URL into your .env or export it in your shell."
     )
 
 # ---- Configure to your Zapier MCP server (server-specific URL) -------
 zapier_server = MCPServerSse(
-    params={"url": MCP_URL},
+#zapier_server = MCPServerStreamableHttp(
+    params={"url": MCP_URL_SSE},
     name="zapier-mcp",
     cache_tools_list=False, # The agent calls list_tools() every time it is run. This will cache the tools list.
 )

@@ -16,7 +16,7 @@ api_key = os.getenv("OPENAI_API_KEY") # this gets the OpenAI API key from the en
 client = OpenAI(api_key=api_key)
 
 prompt = """
-A professor teaching an AI course at UC Berkeley"
+A professor teaching an AI course at UC Berkeley
 """
 
 result = client.images.generate(

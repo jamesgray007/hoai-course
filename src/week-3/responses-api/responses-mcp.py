@@ -1,7 +1,7 @@
 # This code is an example of how to use the OpenAI Responses API with a Zapier MCP server.
 # https://openai.github.io/openai-agents-python/mcp/
 # This provides agents with access to any of the tools that are available in your Zapier MCP Server.
-# This pattern works for any MCP server, not just Zapier.
+# This pattern works for any MCP server, not just Zapier.#
 # OpenAI Cookbook: https://cookbook.openai.com/examples/mcp/mcp_tool_guide
 
 # Install Python packages in the environment where you are running this code.
@@ -27,12 +27,12 @@ client = OpenAI(api_key=api_key) # this creates the OpenAI client
 personal_email = os.getenv("PERSONAL_EMAIL")
 
 # This prompt will be sent to the OpenAI Responses API as a multi-step workflow.
-prompt = f"Please search the web to research what Google announced at recent I/O conference. Summarize what you found in 200-300 words, email to {personal_email} and post on the Slack channel for my coworkers to see."
+prompt = f"Please search the web to research what Google announced at 2025 I/O conference. Summarize what you found in 200-300 words, email to {personal_email} and post on the Slack channel for my coworkers to see."
 
 response = client.responses.create(
   model="gpt-4o-mini",
   input=prompt,
-  instructions="You are a helpful assistant that can search the web, summarize contentemail results to a user, and post on a Slack channel. Execute all actions without asking for confirmation.",
+  instructions="You are a helpful assistant that can search the web, summarize content email results to a user, and post on a Slack channel. Execute all actions without asking for confirmation.",
   tools=[{
             "type": "mcp",
             "server_label": "zapier",
@@ -41,7 +41,8 @@ response = client.responses.create(
             "headers": {
                 "Authorization": f"Bearer {os.getenv('ZAPIER_MCP_API_KEY')}"
             },
-        }
+        },
+        {"type": "web_search_preview"}
     ],
 )
 print(response.output_text)
