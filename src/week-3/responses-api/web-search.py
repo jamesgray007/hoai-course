@@ -89,7 +89,7 @@ def main():
     Searches for AI news and displays formatted results.
     """
     try:
-        query = "What was a top AI news story from OpenAI?"
+        query = "What was a top AI news story from OpenAI yesterday?"
         raw_response = webSearch(query)
         wrapped_response = textwrap.fill(raw_response, width=88)
         

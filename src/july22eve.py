@@ -82,7 +82,7 @@ def main():
     """
     
     # Configure the user message - the question or request to the LLM
-    prompt = "What is the capital of California?"
+    prompt = "What is the capital of Texas?"
     
     # Configure the instructions for the AI assistant
     INSTRUCTIONS = (
@@ -96,7 +96,7 @@ def main():
             model="gpt-4o-mini",
             input=prompt,
             instructions=INSTRUCTIONS,
-            tools=[] # No tools are needed for this simple prompt
+            tools=[] # No tools are needed for this simpleprompt
         )
 
         # Display results
