@@ -44,7 +44,7 @@ async def get_ai_news():
     # Call Responses API with the web_search tool
     client = OpenAI(api_key=api_key)
     resp = client.responses.create(
-        model="gpt-4o",
+        model="gpt-4.1-mini",
         input=(
             "Find the top AI news articles on the web for Anthropic, OpenAI, "
             "Google, and Meta over the last 7 days"
@@ -64,7 +64,7 @@ def create_my_agent() -> Agent:
     """Create a versatile agent equipped with multiple built-in and custom tools."""
     return Agent(
         name="James Personal Agent",
-        model="gpt-4o-mini",
+        model="gpt-4.1-mini",
         instructions=(
             "You are an all-purpose assistant. Use your tools for web search, "
             "finding my favorite AI news articles on the web, getting the "

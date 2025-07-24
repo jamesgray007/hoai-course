@@ -15,7 +15,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 myagent = Agent (
     name = "My Agent",
-    model = "gpt-4.1-mini",
+    model = "gpt-4o-mini",
     instructions = (
         "You are an all-purpose assistant. Use your tools for web search, "
        " Answer concisely. Always pick the most "
