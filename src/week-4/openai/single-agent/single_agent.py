@@ -18,7 +18,7 @@ myagent = Agent (
     model = "gpt-4.1-mini",
     instructions = (
         "You are an all-purpose assistant. Use your tools for web search, "
-       " Answer concisely. Always pick the most "
+        " Answer concisely. Always pick the most "
         "relevant information from the web search results."
     ),
     tools = [
