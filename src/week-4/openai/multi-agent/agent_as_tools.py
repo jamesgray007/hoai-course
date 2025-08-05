@@ -95,7 +95,7 @@ zapier_server = MCPServerSse(
 # Web search specialist agent
 search_agent = Agent(
     name="Search Agent",
-    instructions="You are a search agent that searches the web for relevant information.",
+    instructions="You are a search agent that searches the web for recent information.",
     tools=[WebSearchTool()],
     model="gpt-4o-mini"
 )
