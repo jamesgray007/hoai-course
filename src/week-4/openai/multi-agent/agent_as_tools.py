@@ -27,7 +27,7 @@ Setup:
 4. Configure Zapier integrations for Slack publishing
 
 Author: James Gray
-Last Updated: 2024-12-24
+Last Updated: 2025-07-24
 """
 
 # =====================================================================================
