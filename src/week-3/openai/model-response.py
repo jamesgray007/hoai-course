@@ -82,7 +82,7 @@ def main():
     """
     
     # Configure the user message - the question or request to the LLM
-    prompt = "What is the capital of California?"
+    prompt = "What is the capital of New York?"
     
     # Configure the instructions for the AI assistant
     INSTRUCTIONS = (
