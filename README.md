@@ -1,4 +1,4 @@
-# 🚀 Hands-on AI for Leaders: 30-Day Sprint
+# 🚀 Hands-on AI for Leaders
 
 > **Build AI workflows and agents that automate workflow bottlenecks and save 10+ hours/week**
 
@@ -9,7 +9,7 @@ This repository contains the source code, prompts, and examples for the [Hands-o
 **Instructor:** James Gray - Former Microsoft Data Scientist & Berkeley Haas AI Strategy Instructor
 
 **What You'll Learn:**
-- 🤖 Master AI assistants (ChatGPT, Claude, Gemini) to boost productivity
+- 🤖 Master AI assistants to boost productivity
 - 🔄 Build AI workflows that automate repetitive work
 - 🧠 Create multi-agent systems for autonomous outcomes  
 - 💻 Use AI for code generation (no coding experience required)
@@ -51,18 +51,6 @@ This companion repository provides all the code examples, templates, and resourc
 - Python 3.11+ (for Week 3 & 4 exercises)
 - An AI-powered code editor ([setup guide](/docs/local_setup.md))
 
-### Quick Setup
-1. Clone this repository
-2. Follow the [local setup guide](/docs/local_setup.md) to install Python and configure your environment
-3. Create a `.env` file with your API keys:
-   ```
-   OPENAI_API_KEY=your_key_here
-   VECTOR_STORE_ID=your_vector_store_id
-   ```
-4. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## 📖 How to Use This Repository
 
