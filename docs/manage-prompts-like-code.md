@@ -4,6 +4,8 @@
 
 By James Gray | [JamesGray.AI](https://jamesgray.ai) | [Hands-on AI for Leaders Course](https://handsonai.info)
 
+> 📎 **Optional Resource**: This tutorial was adapted from a comprehensive presentation. [View the slide deck](https://docs.google.com/presentation/d/1bcRtVw8X3hotEJYovJe3IzyL7Ap5NY6fMoWAR5TXllg/edit?usp=sharing) for a visual walkthrough of these concepts.
+
 ---
 
 ## Table of Contents
