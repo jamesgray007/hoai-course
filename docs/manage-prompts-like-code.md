@@ -1,6 +1,6 @@
 # Systematically Manage Your Prompts Like Code
 
-> **A comprehensive guide for leaders to organize, version, and share AI prompts using professional development tools**
+> **A comprehensive guide for leaders and professionals to organize, version, and share AI prompts using professional development tools**
 
 By James Gray | [JamesGray.AI](https://jamesgray.ai) | [Hands-on AI for Leaders Course](https://handsonai.info)
 
