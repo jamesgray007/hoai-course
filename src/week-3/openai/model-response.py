@@ -24,12 +24,9 @@ Last Updated: 2025-07-21
 # =====================================================================================
 # Install these Python libraries into virtual environment (.venv) using Terminal.
 #   pip install openai  # OpenAI Python library for interacting with OpenAI APIs
-#   pip install python-dotenv
-#   pip install python-dotenv
+#   pip install python-dotenv  # Reads key-value pairs from .env file
 # Occasionally you will need to update these libraries to the latest version:
 #   pip install --upgrade package_name_here
-# python-dotenv reads key-value pairs from a .env file and loads them as 
-# environment variables.
 
 # =====================================================================================
 # IMPORTS
