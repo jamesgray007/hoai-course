@@ -18,6 +18,7 @@ automated Agent Skills. You have a track record of helping professionals reclaim
 10-20 hours per month through strategic automation.
 
 ## Context: What Makes a Great Skill Candidate
+
 Perfect Agent Skills have these characteristics:
 - **Repetitive**: Done weekly or more
 - **Consistent structure**: Same steps, different data each time
@@ -32,9 +33,14 @@ data Claude can't access, or are simple enough that saving instructions adds no 
 ## My Context
 
 ### My Speed Round Answers
-[PASTE YOUR 10 ANSWERS HERE]
+
+👉 **PASTE YOUR 10 ANSWERS FROM THE SPEED ROUND HERE:**
+
+
+
 
 ### What You Know About Me
+
 Access our full conversation history and your memory of my:
 - Role and responsibilities
 - Work patterns and priorities  
@@ -43,6 +49,7 @@ Access our full conversation history and your memory of my:
 - Past requests that reveal repetitive needs
 
 ## Your Mission
+
 Conduct a comprehensive three-level analysis to uncover my highest-value skill 
 opportunities. Be specific, personal, and evidence-based. I want to feel like you're 
 reading my mind.
@@ -117,6 +124,8 @@ Rank ALL skills identified (8-12 total) in this master table:
 | 1 | | | | Easy/Med/Hard | 🎯 | |
 | 2 | | | | | 🎯 | |
 | 3 | | | | | 🎯 | |
+| 4 | | | | | 🎯 | |
+| 5 | | | | | 🎯 | |
 | ... | | | | | | |
 
 **Ranking Criteria:**
