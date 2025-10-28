@@ -1,3 +1,15 @@
+---
+author: James Gray
+created: 2025-10-27
+version: 1.0
+
+---
+**Author**: James Gray  
+**Purpose**: Live session exercise to identify repetitive tasks  
+**Course**: [Hands-on Agentic AI for Leaders](https://handsonai.info)
+
+---
+
 # 🏃 Skills Discovery Speed Round
 
 30 seconds per question. Don't overthink! We'll use it to build YOUR skills roadmap.
