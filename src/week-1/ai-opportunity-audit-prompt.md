@@ -4,15 +4,15 @@ created: 2025-11-02
 version: 2.0
 ---
 **Author**: James Gray  
-**Purpose**: Analyze workflows using memory and conversation history to find AI opportunities  
+**Purpose**: Audit workflows to identify high-impact AI opportunities  
 **Course**: [Hands-on Agentic AI for Leaders](https://handsonai.info)
 
 ---
 
-# My AI Opportunity Analysis
+# My AI Opportunity Audit
 
 ## Your Role
-You are an elite workflow consultant with access to our full conversation history and your memory of my work patterns. Your specialty is identifying high-impact opportunities for AI by analyzing BOTH what I explicitly say AND patterns you've observed in our interactions over time.
+You are an elite workflow consultant specializing in identifying high-impact opportunities for AI augmentation and automation. Your specialty is helping business leaders see where AI can reclaim time, amplify strategic work, and eliminate bottlenecks.
 
 ## Context: What Makes a Great AI Opportunity
 
@@ -24,127 +24,202 @@ Strong AI opportunities have these characteristics:
 - **Information-heavy**: Requires research, synthesis, or pulling from multiple sources
 - **Clear quality criteria**: You know what "good" looks like
 
+---
+
 ## My Speed Round Answers
 
-👉 **MY 10 PAIN POINTS:**
+**INSTRUCTIONS:** For each question below, provide FOUR pieces of information:
 
-1. Task I do most often that makes me groan: ___
-2. Thing I'm always copy-pasting: ___
-3. If I had a perfect assistant, first thing I'd delegate: ___
-4. Task where I think "there has to be a faster way": ___
-5. Thing I do differently every time but wish I didn't: ___
-6. Instructions I give AI repeatedly: ___
-7. Task that requires pulling from multiple sources: ___
-8. Thing I'm embarrassed how long it takes me: ___
-9. Format I'm always reformatting: ___
-10. Task I avoid until the last minute: ___
+1. **Workflow**: Short, specific description (5-15 words)
+2. **Frequency**: Type "Daily" OR "Weekly" OR "Monthly"
+3. **Time**: Hours per week (realistic estimate)
+4. **Frustration**: Number from 1-10 (1=mild annoyance, 10=excruciating)
+
+**Example format:**
+```
+Workflow: Writing weekly board status updates
+Frequency: Weekly
+Time: 4 hours
+Frustration: 8
+```
+
+---
+
+### Question 1: Task I do most often that makes me groan
+
+Workflow: 
+Frequency: 
+Time: 
+Frustration: 
+
+---
+
+### Question 2: Thing I'm always copy-pasting
+
+Workflow: 
+Frequency: 
+Time: 
+Frustration: 
+
+---
+
+### Question 3: If I had a perfect assistant, first thing I'd delegate
+
+Workflow: 
+Frequency: 
+Time: 
+Frustration: 
+
+---
+
+### Question 4: Task where I think "there has to be a faster way"
+
+Workflow: 
+Frequency: 
+Time: 
+Frustration: 
+
+---
+
+### Question 5: Thing I do differently every time but wish I didn't
+
+Workflow: 
+Frequency: 
+Time: 
+Frustration: 
+
+---
+
+### Question 6: Instructions I give AI repeatedly
+
+Workflow: 
+Frequency: 
+Time: 
+Frustration: 
+
+---
+
+### Question 7: Task that requires pulling from multiple sources
+
+Workflow: 
+Frequency: 
+Time: 
+Frustration: 
+
+---
+
+### Question 8: Thing I'm embarrassed how long it takes me
+
+Workflow: 
+Frequency: 
+Time: 
+Frustration: 
+
+---
+
+### Question 9: Format I'm always reformatting
+
+Workflow: 
+Frequency: 
+Time: 
+Frustration: 
+
+---
+
+### Question 10: Task I avoid until the last minute
+
+Workflow: 
+Frequency: 
+Time: 
+Frustration: 
 
 ---
 
 ## Your Mission
 
-Analyze my pain points AND our conversation history to provide three levels of insight.
+Analyze my workflows using the Priority Score formula and provide systematic insights.
 
 ---
 
-### LEVEL 1: Validate My Manual Audit
+### STEP 1: Calculate Priority Scores
 
-I've already scored these workflows manually in a spreadsheet using:
-**Priority Score = Frustration × Time × Frequency**
+Convert my responses to numerical scores and calculate priorities:
 
-Review my 10 answers and:
+**Frequency Conversion:**
+- Daily = 3
+- Weekly = 2
+- Monthly = 1
 
-**For each workflow mentioned:**
+**Priority Score Formula:**
+Frustration × Time/Week × Frequency = Priority Score
 
-1. **Extract the workflow** - What's the actual task?
-2. **Estimate scores** - What would YOU score for Frustration (1-10), Time (hrs/week), Frequency (3/2/1)?
-3. **Calculate YOUR Priority Score** - Frustration × Time × Frequency
-4. **Compare insight** - Do you agree with what I might have scored? Why or why not?
+**Create a table:**
 
-**Present as a table:**
-
-| Workflow | Your Frustration Est. | Your Time Est. | Your Frequency | **Your Priority Score** | Why This Score |
-|----------|----------------------|----------------|----------------|------------------------|----------------|
-| [Name] | X | Y hrs | 3/2/1 | **XYZ** | [Reasoning] |
+| # | Workflow | Frustration | Time/Wk | Frequency | **Priority Score** | Monthly Hours |
+|---|----------|-------------|---------|-----------|-------------------|---------------|
+| 1 | [Name] | X | Y | 3/2/1 | **X×Y×F** | Time×4 |
+| 2 | [Name] | X | Y | 3/2/1 | **X×Y×F** | Time×4 |
+| ... | | | | | | |
 
 ---
 
-### LEVEL 2: Hidden Patterns from Our History
+### STEP 2: Ranked Opportunity List
 
-**Search our conversation history and your memory of me.** 
+Present ALL workflows sorted by Priority Score (highest to lowest):
 
-Find **2-3 tasks I've asked you to help with MULTIPLE times** that I didn't explicitly mention in the Speed Round but are clearly repetitive workflows.
+| Rank | Workflow | Priority Score | Frustration | Time/Wk | Frequency | Monthly Hours | Why This Score |
+|------|----------|----------------|-------------|---------|-----------|---------------|----------------|
+| 1 | [Name] | **XXX** | X | Y | 3/2/1 | Z | [Reasoning] |
+| 2 | [Name] | **XXX** | X | Y | 3/2/1 | Z | [Reasoning] |
+| 3 | [Name] | **XXX** | X | Y | 3/2/1 | Z | [Reasoning] |
+| ... | | | | | | | |
+
+---
+
+### STEP 3: Hidden Patterns from Memory
+
+**Search our conversation history and your memory of me.**
+
+Find **2-3 tasks I've asked you to help with MULTIPLE times** that I didn't mention in the Speed Round but are clearly repetitive workflows.
 
 For each hidden pattern:
 
 **[Workflow Name]**
 
 - **The Pattern You Spotted**: [What keeps coming up in our conversations?]
-- **Evidence**: [Quote 2-3 examples of when I asked for this - with dates if possible]
-- **Why I Didn't Mention It**: [What blind spot am I in? Do I not realize it's repetitive?]
-- **Your Estimated Priority Score**: [Calculate: Frustration × Time × Frequency based on our history]
+- **Evidence**: [Quote 2-3 examples of when I asked for this]
+- **Your Estimated Scores**:
+  - Frustration: X/10
+  - Time: Y hrs/week
+  - Frequency: 3/2/1
+  - **Priority Score: X×Y×F**
+- **Why I Didn't Mention It**: [What blind spot am I in?]
 - **The Unlock**: [How would systematizing this change my work?]
 
 ---
 
-### LEVEL 3: Strategic Opportunities from Memory
+### STEP 4: Top 3 Deep Dive
 
-Based on **everything you know about my role, work patterns, and goals** from our conversation history and your memory:
+For the **Top 3 highest-scoring workflows** (from Speed Round or Hidden Patterns), provide:
 
-Identify **2-3 workflows I SHOULD be systematizing** but either:
-- I'm avoiding because they're hard
-- I don't do consistently (but should)
-- I haven't recognized as systematizable
-
-For each strategic opportunity:
-
-**[Workflow Name]**
-
-- **The Gap**: [What am I not doing that I should be?]
-- **Why I'm Not Doing It**: [What's the barrier? Time? Complexity? Unclear how?]
-- **Evidence from Our History**: [When have I mentioned this pain or goal?]
-- **The Unlock**: [How would this transform my work?]
-- **Build Complexity**: [Easy/Medium/Hard to implement]
-
----
-
-### CONSOLIDATED ANALYSIS
-
-**Master Ranking Table:**
-
-Combine ALL workflows (from Speed Round + Hidden Patterns + Strategic Opportunities) into one ranked list:
-
-| Rank | Workflow | Source | Priority Score | Monthly Hours | Build Ease | Why This Rank |
-|------|----------|--------|----------------|---------------|------------|---------------|
-| 1 | [Name] | Speed Round | **X** | Y hrs | Easy/Med/Hard | [Reasoning] |
-| 2 | [Name] | Hidden Pattern | **X** | Y hrs | Easy/Med/Hard | [Reasoning] |
-| 3 | [Name] | Strategic | **X** | Y hrs | Easy/Med/Hard | [Reasoning] |
-| ... | | | | | | |
-
----
-
-### TOP 3 DEEP DIVE
-
-For the **Top 3 highest-priority workflows** (from any source), provide:
-
-**#1: [Workflow Name]** - Priority Score: **[X]** - Source: [Speed Round/Hidden/Strategic]
+**#1: [Workflow Name]** - Priority Score: **[X]**
 
 **Why This Scored Highest:**
-- [Combination of factors - use our history as evidence]
+- [Combination of factors - show the math]
 
 **How AI Could Help:**
 - **Automate**: [What could be fully automated?]
 - **Accelerate**: [What could AI speed up significantly?]
 - **Augment**: [Where should AI assist but you retain judgment?]
 
-**Monthly Time Reclaim Potential:** [X hours - be realistic]
+**Monthly Time Reclaim Potential:** [X hours - based on your time estimate × 4]
 
 **Implementation Readiness:**
-- ✅ Clear inputs: [What I'd provide AI based on our history]
-- ✅ Clear outputs: [What I want back]
-- ⚠️ Edge cases: [What might be tricky based on what you know about my work?]
+- ✅ Clear inputs: [What you'd provide AI]
+- ✅ Clear outputs: [What you want back]
+- ⚠️ Edge cases: [Anything tricky?]
 
-**Next Steps:** [Concrete first action I should take]
+**Next Steps:** [Concrete first action]
 
 ---
 
@@ -152,22 +227,7 @@ For the **Top 3 highest-priority workflows** (from any source), provide:
 
 ---
 
-### COMPARISON WITH MY MANUAL AUDIT
-
-**Where We Agree:**
-- [Which workflows did we both identify as high priority?]
-
-**Where We Disagree:**
-- [Which workflows did I score higher/lower than you would? Why?]
-- [Which workflows did I miss entirely that you found in our history?]
-
-**Blind Spots I Should Consider:**
-- [What patterns am I not seeing?]
-- [What am I avoiding that would have high ROI?]
-
----
-
-### FORUM-READY SUMMARY
+### STEP 5: Forum-Ready Summary
 
 Create a post I can copy directly into the community forum:
 
@@ -177,44 +237,64 @@ Create a post I can copy directly into the community forum:
 
 **1. [Workflow Name]**
 - Current time investment: X hours/week
-- Priority Score: X (validated by AI analysis)
+- Priority Score: XXX (Frustration: X, Time: Y, Frequency: Z)
 - Why this matters: [Strategic value in one sentence]
-- What I want AI to do: [Specific capability]
+- What I want AI to do: [Specific capability - automate/accelerate/augment]
 
 **2. [Workflow Name]**
 - Current time investment: X hours/week
-- Priority Score: X
+- Priority Score: XXX
 - Why this matters: [One sentence]
 - What I want AI to do: [Specific capability]
 
 **3. [Workflow Name]**
 - Current time investment: X hours/week
-- Priority Score: X
+- Priority Score: XXX
 - Why this matters: [One sentence]
 - What I want AI to do: [Specific capability]
 
-**Biggest insight from this audit:** [1-2 sentences about what the AI analysis revealed that I didn't see in my manual scoring - include any surprises from conversation history analysis]
+**Biggest insight from this audit:** [1-2 sentences - What surprised you about the scores? What pattern emerged from conversation history that you hadn't labeled as a "workflow"?]
 
 ---
+
+---
+
+## Scoring Reference Guide
+
+**Frustration Scale (1-10):**
+- **1-3**: Mild annoyance (eye roll, but manageable)
+- **4-6**: Moderately draining (affects your mood, energy sink)
+- **7-9**: Significantly frustrating (makes you procrastinate, dreading it)
+- **10**: Excruciating (makes you question your career choices)
+
+**Time Per Week:**
+- Include ALL time: prep, execution, cleanup, revisions
+- Be honest, not aspirational
+- Round to nearest hour or half-hour
+
+**Frequency:**
+- **Daily**: 5+ times per week
+- **Weekly**: 1-4 times per week
+- **Monthly**: Less than weekly but you do it regularly
 
 ---
 
 ## Critical Instructions
 
 **You MUST:**
-- ✅ Actually search our conversation history - don't just analyze the 10 answers
+- ✅ Use the EXACT numbers I provided (don't adjust my scores)
+- ✅ Calculate Priority Scores accurately using the formula
+- ✅ Search conversation history for hidden patterns I missed
 - ✅ Reference your memory of my role, goals, and work patterns
-- ✅ Quote specific examples from our past conversations when identifying hidden patterns
-- ✅ Be honest if you disagree with a priority - explain your reasoning
-- ✅ Identify workflows I'm avoiding or not doing consistently
-- ✅ Use my actual language and communication style
+- ✅ Show your math in the rankings (transparency)
+- ✅ Be honest if a workflow scored lower than I might expect
 
 **You must NOT:**
-- ❌ Only analyze the 10 Speed Round answers (that's just Level 1)
+- ❌ Estimate or guess my scores (I provided them)
+- ❌ Only analyze the 10 Speed Round answers (also search history)
 - ❌ Make generic suggestions that could apply to anyone
 - ❌ Ignore patterns from our conversation history
-- ❌ Be overly cautious - challenge my thinking if you see blind spots
 
 ---
 
-**Now analyze my workflows using ALL available context - Speed Round answers, conversation history, and your memory of my work.**
+**Now analyze my workflows using my actual scores and ALL available context from our conversation history.**
