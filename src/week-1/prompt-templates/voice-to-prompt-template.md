@@ -43,4 +43,6 @@ Provide the translated prompt in clean markdown format, structured with:
 
 ---
 
-**Note**: The translated prompt should be ready to use as-is with any LLM, requiring no further editing.
+## Execute
+
+Now, analyze the voice-to-text summary in the `<voice_summary>` tags above and transform it into an optimized prompt following all the best practices outlined. Output only the final prompt in markdown format, ready for immediate use.
