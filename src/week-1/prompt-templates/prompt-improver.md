@@ -57,3 +57,9 @@ Provide your response in this structure:
 ## Instructions
 
 Please provide your draft prompt below, and I will analyze and improve it following the principles above.
+
+---
+
+**YOUR DRAFT PROMPT:**
+
+[Paste your prompt here]
