@@ -47,7 +47,7 @@ After completing this, paste your answers into the Gold Mine Analysis prompt.
 9. **Format I'm always reformatting:**
 
 
-10. **Task I avoid until the last minute:**
+10. **Task I never have time for (but wish I did):**
 
 
 ---
