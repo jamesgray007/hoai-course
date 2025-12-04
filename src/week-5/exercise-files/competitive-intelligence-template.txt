@@ -1,0 +1,25 @@
+Create a competitive intelligence agent that:
+1. Searches web for news about [Company A], [Company B], and [Company C] from past 7 days
+2. For each competitor, extract strategic moves:
+   - New product launches or feature announcements
+   - Partnership or acquisition announcements
+   - Funding rounds or financial milestones
+   - Leadership changes or organizational restructuring
+   - Market expansion or new customer wins
+3. Analyze competitive implications for [Your Company]:
+   - Direct threats to current product positioning
+   - New opportunities created by competitor moves
+   - Market trends indicated by collective activity
+   - Gaps in competitor offerings we can exploit
+4. Generate executive briefing document with:
+   - Executive summary (3-4 sentences)
+   - Competitor intelligence (one section per company with 3-5 key findings)
+   - Strategic implications (categorized by threat level)
+   - Top 3 recommended actions with:
+     * Specific action to take
+     * Business rationale
+     * Estimated timeline and resources required
+   - Appendix with source links for verification
+5. Save briefing to competitive-intel-briefing-[YYYY-MM-DD].md
+
+Format the document professionally for executive distribution.

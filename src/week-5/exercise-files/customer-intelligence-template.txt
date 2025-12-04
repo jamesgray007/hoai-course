@@ -1,0 +1,45 @@
+Create a customer intelligence agent that:
+1. Analyze feedback from [specify sources: product reviews, support tickets, social media, user forums]:
+   - Aggregate feedback from [time period: past 30/60/90 days]
+   - Focus on [product/service area if specific]
+   - Minimum threshold: themes mentioned 50+ times
+2. Extract common themes and pain points:
+   - Categorize by type: functionality, usability, performance, support, pricing
+   - Quantify frequency and severity of each theme
+   - Identify trends (increasing, stable, decreasing mentions)
+   - Note correlations between themes
+3. Prioritize feature requests by:
+   - Frequency: Number of customer mentions
+   - Business impact: Revenue at risk or opportunity size
+   - Competitive context: Features competitors have that we lack
+   - Implementation complexity: Estimated effort (T-shirt sizing: S/M/L)
+4. Generate product intelligence report with:
+   - Executive summary (3-4 sentences highlighting key findings)
+   - Customer sentiment overview:
+     * Overall satisfaction trend
+     * Top positive themes
+     * Top pain points
+   - Top 5 customer pain points:
+     * Pain Point 1:
+       - Description and business impact
+       - Frequency: [number] mentions
+       - Verbatim examples (2-3 representative quotes)
+       - Severity: [High/Medium/Low]
+       - Trend: [Increasing/Stable/Decreasing]
+     * [Repeat for points 2-5]
+   - Recommended feature priorities:
+     * Priority 1: [Feature name]
+       - Customer need being addressed
+       - Frequency: [number] requests
+       - Estimated ROI: [revenue opportunity or churn reduction]
+       - Implementation complexity: [S/M/L]
+       - Recommended timeline: [Quarter/Year]
+     * [Repeat for priorities 2-5]
+   - Competitive feature gap analysis:
+     * Features competitors have that we lack
+     * Customer impact of these gaps
+     * Strategic importance of closing gaps
+   - Appendix: Data sources and methodology
+5. Save output to customer-intelligence-[product-area]-[YYYY-MM-DD].md
+
+Format for product leadership and engineering team consumption.

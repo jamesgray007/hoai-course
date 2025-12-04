@@ -1,0 +1,43 @@
+Create a strategic planning agent that:
+1. Research [specific market trend or technology area] developments from past 30 days:
+   - Major product launches or announcements
+   - Significant funding or M&A activity
+   - Regulatory or policy changes
+   - Analyst reports or market research findings
+   - Technology breakthroughs or innovations
+2. Identify top 5 companies making significant moves in this space:
+   - Rank by market impact and momentum
+   - Include both established players and emerging challengers
+   - Note their specific strategies and positioning
+3. Analyze implications for [your company/industry]:
+   - Market momentum assessment (accelerating/stable/declining)
+   - Key drivers of growth or contraction
+   - Barriers to entry or expansion
+   - Technology maturity and adoption curves
+4. Generate strategic outlook report with:
+   - Executive summary (4-5 sentences)
+   - Market landscape overview
+   - Top 5 companies analysis (one section each):
+     * Company profile and recent moves
+     * Strategic approach and differentiation
+     * Market position and momentum
+   - Strategic implications for us:
+     * Opportunities to pursue
+     * Threats to mitigate
+     * Strategic positioning recommendations
+   - 3 strategic recommendations:
+     * Recommendation 1: [Specific action]
+       - Business rationale and expected impact
+       - Timeline: [e.g., "Initiate in Q2 2026, achieve results by Q4 2026"]
+       - Resource estimates: [e.g., "2 FTEs, $150K budget"]
+     * Recommendation 2: [Specific action]
+       - Business rationale and expected impact
+       - Timeline
+       - Resource estimates
+     * Recommendation 3: [Specific action]
+       - Business rationale and expected impact
+       - Timeline
+       - Resource estimates
+5. Save output to strategic-outlook-[technology-area]-[YYYY-MM-DD].md
+
+Use professional formatting suitable for board-level presentation.

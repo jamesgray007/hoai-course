@@ -1,0 +1,46 @@
+Create a partnership opportunity agent that:
+1. Research potential partners in [industry/category/technology area]:
+   - Identify companies matching profile: [size, geography, market position]
+   - Focus on [partnership type: technology, distribution, strategic alliance]
+   - Generate list of 8-10 candidates for evaluation
+2. Evaluate each partner against criteria:
+   - Technical fit: [specific technical requirements or compatibilities]
+   - Market reach: [target customer segments, geographic coverage]
+   - Cultural alignment: [company values, partnership philosophy]
+   - Financial stability: [revenue range, funding status, growth trajectory]
+   - Strategic intent: [evidence of partnership-friendly approach]
+   - Competitive positioning: [not partnered with direct competitors]
+3. Identify top 3 partnership opportunities:
+   - Rank by overall fit score across all criteria
+   - Prioritize by strategic value to [your company]
+   - Consider speed to value and implementation complexity
+4. Generate partnership evaluation report with:
+   - Executive summary (3-4 sentences)
+   - Partnership strategy context:
+     * Business objectives for partnerships
+     * Evaluation criteria and weighting
+     * Market landscape for this partnership category
+   - Candidate overview:
+     * List of 8-10 companies evaluated
+     * Summary scoring matrix (criteria vs candidates)
+   - Top 3 partnership opportunities:
+     * Partner 1: [Company name]
+       - Company profile (products, market position, recent news)
+       - Strategic rationale for partnership
+       - Specific partnership model recommended: [technology integration, co-marketing, reseller, strategic investment]
+       - Expected business value: [revenue potential, market access, technical capability]
+       - Evaluation score by criteria
+       - Risks and mitigation strategies
+       - Proposed next steps:
+         1. [Specific action with owner and timeline]
+         2. [Specific action with owner and timeline]
+         3. [Specific action with owner and timeline]
+     * [Repeat for Partners 2 and 3]
+   - Outreach strategy:
+     * Sequencing recommendation (which partner to approach first)
+     * Key messages for initial conversations
+     * Success criteria for exploratory discussions
+     * Timeline for partnership pipeline
+5. Save output to partnership-opportunities-[category]-[YYYY-MM-DD].md
+
+Format professionally for executive review and business development team execution.
